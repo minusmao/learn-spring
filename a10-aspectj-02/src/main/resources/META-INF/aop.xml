@@ -1,0 +1,9 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.example.learn.spring.a10.aop.MyAspect"/>
+        <weaver options="-verbose -showWeaveInfo">
+            <include within="com.example.learn.spring.a10.service.MyService"/>
+            <include within="com.example.learn.spring.a10.aop.MyAspect"/>
+        </weaver>
+    </aspects>
+</aspectj>
