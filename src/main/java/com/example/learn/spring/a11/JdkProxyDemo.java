@@ -40,6 +40,9 @@ public class JdkProxyDemo {
 
         proxy.foo();
 
+        // 补充：用arthas工具查看源码发现，jdk代理还默认代理了hashCode()、equals()、toString()这三个方法
+        proxy.toString();
+
         System.in.read();
     }
 }
