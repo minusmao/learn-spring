@@ -18,7 +18,6 @@ public class A13 {
 //                return method.invoke(target, args); // 反射调用
                 // FastClass
 //                return methodProxy.invoke(target, args); // 内部无反射, 结合目标用
-                // TODO 运行报错，原因未知
                 return methodProxy.invokeSuper(p, args); // 内部无反射, 结合代理用
             }
         });

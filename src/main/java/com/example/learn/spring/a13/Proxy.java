@@ -42,13 +42,13 @@ public class Proxy extends Target {
     }
 
     // >>>>>>>>>>>>>>>>>> 带原始功能的方法
-    public void saveSupper() {
+    public void saveSuper() {
         super.save();
     }
-    public void saveSupper(int i) {
+    public void saveSuper(int i) {
         super.save(i);
     }
-    public void saveSupper(long j) {
+    public void saveSuper(long j) {
         super.save(j);
     }
 
