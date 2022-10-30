@@ -100,6 +100,8 @@ public class A21 {
             // 查看参数上的注解
             String annotations = Arrays.stream(parameter.getParameterAnnotations()).map(a -> a.annotationType().getSimpleName()).collect(Collectors.joining());
             String str = annotations.length() > 0 ? " @" + annotations + " " : " ";
+
+            // 参数名称解析器
             parameter.initParameterNameDiscovery(new DefaultParameterNameDiscoverer());
 
             if (composite.supportsParameter(parameter)) {
