@@ -7,6 +7,6 @@ com.example.learn.spring.a41.A41_2.AutoConfiguration1,\
 com.example.learn.spring.a41.A41_2.AutoConfiguration2
 
 
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.example.learn.spring.a41.A41_2.AutoConfiguration1,\
-com.example.learn.spring.a41.A41_2.AutoConfiguration2
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#com.example.learn.spring.a41.A41_2.AutoConfiguration1,\
+#com.example.learn.spring.a41.A41_2.AutoConfiguration2
